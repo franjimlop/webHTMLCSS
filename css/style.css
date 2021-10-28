@@ -198,17 +198,26 @@ text-align: center;
     list-style-type: upper-roman;
     list-style-image: none;
 }
-#listas{
-    width: 40%;
+.lista1{
+    background-color: rgb(255, 0, 0);
 }
-.cajaul{
-    background-color: rgb(219, 48, 26);
+.lista2{
+    background-color: rgb(255, 45, 0);
 }
-.cajaol{
-    background-color: rgb(26, 199, 55);
+.lista3{
+    background-color: rgb(255, 90, 0);
+}
+.lista4{
+    background-color: rgb(255, 135, 0);
+}
+.lista5{
+    background-color: rgb(255, 180, 0);
+}
+.lista6{
+    background-color: rgb(255, 225, 0);
 }
 .cajadl{
-    background-color: cadetblue;
+    background-color: rgb(245, 255, 0);
 }
 .cajaformu {
     background-color: yellow;
@@ -238,24 +247,30 @@ text-align: center;
 }
 #enl1{
     background-color: cornflowerblue;
+    text-align: center;
 }
 #enl2{
-    background-color: rgb(104, 241, 139);
+    background-color: rgb(100, 175, 237);
+    text-align: center;
 }
 #enl3{
-    background-color: rgb(158, 189, 107);
+    background-color: rgb(100, 237, 230);
+    text-align: center;
 }
 #enl4{
-    background-color: rgb(188, 189, 107);
+    background-color: rgb(100, 237, 184);
+    text-align: center;
 }
 #enl5{
-    background-color: rgb(189, 177, 107);
+    background-color: rgb(100, 237, 152);
+    text-align: center;
 }
 #enl6{
-    background-color: rgb(189, 151, 107);
+    background-color: rgb(100, 237, 118);
+    text-align: center;
 }
 #enl7{
-    background-color: rgb(224, 121, 108);
+    background-color: rgb(127, 237, 100);
 }
 #par1{
 background-color: rgb(120, 145, 226);
@@ -276,17 +291,11 @@ background-color: rgb(209, 102, 102);
 .tab-ver{
     background-color: rgb(191, 238, 169);
 }
-.for1-2{
-    width: 40%;
-    float: right;
-    margin-top: 20px;
-    margin-right: 40px;
-    align-content: center;
-}
 .cajforvacia{
-    width: 40%;
-    height: 120px;
+    width: 55%;
+    height: 500px;
     float: right;
+    text-align: center;
 }
 .bandera{
     margin-left: 3px;
@@ -309,4 +318,35 @@ background-color: rgb(209, 102, 102);
 }
 #form5{
     text-align: center;
+}
+.gif{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.relievetab{
+    text-align: center; 
+    font-family: Comic Sans MS; 
+    font-weight:bold; 
+    font-size: 25px; 
+    color: rgb(180, 152, 207); 
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+}
+.relievemul{
+    text-align: center; 
+    font-family: Comic Sans MS; 
+    font-weight:bold; 
+    font-size: 25px; 
+    color: rgb(219, 31, 31); 
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+}
+#formhtml5 fieldset{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(191, 238, 169);
+}
+#multimedia fieldset{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(169, 238, 221);
 }
