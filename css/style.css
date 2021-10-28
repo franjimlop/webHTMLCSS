@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    background-color: rgb(191, 238, 169);
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px grey;
+    background-color: rgb(220, 255, 252);
+}
+header img {
+    width: 100%;
+    height: 150px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 74%;
+    float: right;
+    padding: 0 3% 1% 3%;
+}
+footer {
+    background-color: rgb(22, 0, 223);
+    color:rgb(85, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    color: rgb(37, 0, 170);
+    background-color: cornflowerblue;
+    font-size: 22px;
+    border: solid 1px rgb(37, 0, 170);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+nav ul li:hover {
+    color: cornflowerblue;
+    background-color: rgb(37, 0, 170);
+}
+a {
+    text-decoration: none;
+}
+#home {
+    text-align: center;
+}
+.titulo-centrado{
+    color: rgb(26, 132, 146);
+    text-align: center;
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 45px; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+.resalto {
+    font-size: 25px;
+    color: blueviolet;
+}
+.text-derecha{
+    text-align: right;
+}
+#tablas table{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+#tablas{
+text-align: center;
+}
+#tdefault th{
+    background-color: blue;
+    color: cyan;
+    width: 25%;
+    margin: 0 auto;
+}
+#tdefault td{
+    background-color: cyan;
+    color: blue;
+    width: 25%;
+    margin: 0 auto;
+}
+#tcombi th{
+    background-color: yellow;
+    color: red;
+    width: 25%;
+    margin: 0 auto;
+}
+#tcombi td{
+    background-color: red;
+    color: yellow;
+    width: 25%;
+    margin: 0 auto;
+}
+#tpar tr:nth-child(odd) td{
+    background-color: rgb(250, 236, 211);
+}
+#tpar tr:nth-child(even) td{
+    background-color: rgb(228, 181, 228);
+}
+#tpar th{
+    background-color: green;
+    color: rgb(0, 252, 239);
+    width: 25%;
+    margin: 0 auto;
+}
+#tpar td{
+    width: 25%;
+    margin: 0 auto;
+}
+#thorario table, th, td{
+    border: solid, 1px, gray;
+    width: 90%;
+    margin: 0 auto;
+}
+#thorario th{
+    color: #0e5758;
+    width: 5%;
+    margin: 0 auto;
+}
+#thorario .txt-s1{
+    font-size: 26px;
+}
+#thorario .fol{
+    background-color: #fbd13b;
+    width: 17%;
+    margin: 0 auto;
+}
+#thorario .sis{
+    background-color: #c9a0c8;
+    width: 17%;
+    margin: 0 auto;
+}
+#thorario .ent{
+    background-color: #817fbf;
+    width: 17%;
+    margin: 0 auto;
+}
+#thorario .ing{
+    background-color: #eff0c8;
+    width: 17%;
+    margin: 0 auto;
+}
+#thorario .pro{
+    background-color: #91de93;
+    width: 17%;
+    margin: 0 auto;
+}
+#thorario .bas{
+    background-color: #81ff81;
+    width: 17%;
+    margin: 0 auto;
+}
+#thorario .len{
+    background-color: #fe8081;
+    width: 17%;
+    margin: 0 auto;
+}
+#thorario .hora{
+    width: 5%;
+    margin: 0 auto;
+}
+#thorario .dia{
+    width: 17%;
+    margin: 0 auto; 
+}
+#thorario .recreo{
+    width: 85%;
+    margin: 0 auto;
+}
+#customd li{
+    list-style-type: square;
+}
+#customd li li{
+    list-style-type: circle;
+}
+#customd li li li{
+    list-style-type: disc;
+}
+#customo li{
+    list-style-type: lower-alpha;
+}
+#customo li li{
+    list-style-image: url(../img/corazon16.png);
+}
+#customo li li li{
+    list-style-type: upper-roman;
+    list-style-image: none;
+}
+#listas{
+    width: 40%;
+}
+.cajaul{
+    background-color: rgb(219, 48, 26);
+}
+.cajaol{
+    background-color: rgb(26, 199, 55);
+}
+.cajadl{
+    background-color: cadetblue;
+}
+.cajaformu {
+    background-color: yellow;
+    -webkit-text-stroke: 1px black;
+}
+.cajaforpeq {
+    background-color: red;
+    -webkit-text-stroke: 1px black;
+}
+.cajaformu2 {
+    background-color: rgb(19, 149, 236);
+    -webkit-text-stroke: 1px black;
+}
+.cajaforpeq2 {
+    background-color: rgb(46, 253, 5);
+    -webkit-text-stroke: 1px black;
+}
+.txt-cen{
+    text-align: center;
+}
+#form1{
+    width: 40%;
+    float: left;
+}
+#form2{
+    width: 60%;
+}
+#enl1{
+    background-color: cornflowerblue;
+}
+#enl2{
+    background-color: rgb(104, 241, 139);
+}
+#enl3{
+    background-color: rgb(158, 189, 107);
+}
+#enl4{
+    background-color: rgb(188, 189, 107);
+}
+#enl5{
+    background-color: rgb(189, 177, 107);
+}
+#enl6{
+    background-color: rgb(189, 151, 107);
+}
+#enl7{
+    background-color: rgb(224, 121, 108);
+}
+#par1{
+background-color: rgb(120, 145, 226);
+}
+#par2{
+background-color: rgb(125, 224, 147);
+}
+#par3{
+background-color: rgb(209, 102, 102);
+}
+#multimedia{
+    text-align: center;
+}
+#sub{
+    text-decoration: underline;
+    text-decoration-color: cornflowerblue;
+}
+.tab-ver{
+    background-color: rgb(191, 238, 169);
+}
+.for1-2{
+    width: 40%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    align-content: center;
+}
+.cajforvacia{
+    width: 40%;
+    height: 120px;
+    float: right;
+}
+.bandera{
+    margin-left: 3px;
+}
+.relievelis{
+    text-align: left; 
+    font-family: Comic Sans MS; 
+    font-weight:bold; 
+    font-size: 25px; 
+    color: #EBD758; 
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+}
+.relievefor{
+    text-align: left; 
+    font-family: Comic Sans MS; 
+    font-weight:bold; 
+    font-size: 25px; 
+    color: #64eb58; 
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+}
+#form5{
+    text-align: center;
+}

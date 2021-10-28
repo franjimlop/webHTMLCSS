@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML - CSS</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="img/imgheader.jpg" alt="computer">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>Párrafos</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>Form Html5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <div id="formularios">
+                    <h1 class="titulo-centrado">Formularios</h1>
+                    <p>La etiqueta principal para crear un formulario es <span class="resalto">form</span></p>
+                    <p class="relievefor">Primer formulario</p>
+                    <form action="http://ww.azarquiel.es/registro.php" method="get" id="inicial">
+                        <fieldset class="cajaformu" id="form1">
+                            <legend class="resalto">Registro</legend>
+                            <fieldset class="cajaforpeq">
+                                <legend>Nombre</legend>
+                                <p><input type="text" name="nombre" placeholder="Nombre"></p>
+                            </fieldset>
+                            <fieldset class="cajaforpeq">
+                                <legend>Password</legend>
+                                <p><input type="password" name="password" placeholder="Contraseña"></p>
+                            </fieldset>
+                            <fieldset class="cajaforpeq">
+                                <legend>Área de texto</legend>
+                                <p><textarea name="textoGrande" cols="30" rows="10"
+                                        placeholder="Comentarios"></textarea>
+                            </fieldset>
+                            </p>
+                            <input type="hidden" name="secreto" value="CR7">
+                            <p class="txt-cen"><input type="submit"></p>
+                        </fieldset>
+                    </form>
+                    <div class="cajforvacia"></div>
+                    <img class="for1-2" width="260" height="225" src="img/informatico.gif" alt="Informatico">
+                    <p class="cb"></p>
+                    <p class="relievefor"><br> Segundo formulario</p>
+                    <form action="" method="get" id="grande">
+                        <fieldset class="cajaformu2" id="form2">
+                            <legend class="resalto">Registro grande</legend>
+                            <fieldset class="cajaforpeq2">
+                                <legend>Equipos</legend>
+                                <p><select name="equipo">
+                                        <option value="madrid">Real Madrid</option>
+                                        <option value="barcelona">Barcelona</option>
+                                        <option value="atleti">Atlético de Madrid</option>
+                                        <option value="sevilla">Sevilla</option>
+                                        <option value="real">Real Sociedad</option>
+                                        <option value="betis">Real Betis</option>
+                                        <option value="villareal">Villareal</option>
+                                        <option value="granada">Granada</option>
+                                        <option value="athletic">Athletic Club</option>
+                                        <option value="osasuna">Osasuna</option>
+                                        <option value="valencia">Valencia</option>
+                                        <option value="levante">Levante</option>
+                                        <option value="elche">Elche</option>
+                                        <option value="rayo">Rayo Vallecano</option>
+                                        <option value="mallorca">Mallorca</option>
+                                        <option value="espanyol">Espanyol</option>
+                                        <option value="cadiz">Cádiz</option>
+                                        <option value="getafe">Getafe</option>
+                                        <option value="celta">Celta de Vigo</option>
+                                        <option value="alaves">Alavés</option>
+                                    </select></p>
+                            </fieldset>
+                            <fieldset class="cajaforpeq2">
+                                <legend>Equipos</legend>
+                                <p><select name="equipo" multiple size="20">
+                                        <option value="madrid">Real Madrid</option>
+                                        <option value="barcelona">Barcelona</option>
+                                        <option value="atleti">Atlético de Madrid</option>
+                                        <option value="sevilla">Sevilla</option>
+                                        <option value="real">Real Sociedad</option>
+                                        <option value="betis">Real Betis</option>
+                                        <option value="villareal">Villareal</option>
+                                        <option value="granada">Granada</option>
+                                        <option value="athletic">Athletic Club</option>
+                                        <option value="osasuna">Osasuna</option>
+                                        <option value="valencia">Valencia</option>
+                                        <option value="levante">Levante</option>
+                                        <option value="elche">Elche</option>
+                                        <option value="rayo">Rayo Vallecano</option>
+                                        <option value="mallorca">Mallorca</option>
+                                        <option value="espanyol">Espanyol</option>
+                                        <option value="cadiz">Cádiz</option>
+                                        <option value="getafe">Getafe</option>
+                                        <option value="celta">Celta de Vigo</option>
+                                        <option value="alaves">Alavés</option>
+                                    </select></p>
+                            </fieldset>
+                            <fieldset class="cajaforpeq2">
+                                <legend>Competiciones</legend>
+                                <p>
+                                    <input type="checkbox" name="champions">UEFA Champions League <br>
+                                    <input type="checkbox" name="copa">Copa del rey <br>
+                                    <input type="checkbox" name="liga">Liga Santander <br>
+                                    <input type="checkbox" name="europa">Europa League <br>
+                                </p>
+                            </fieldset>
+                            <fieldset class="cajaforpeq2">
+                                <legend>Competiciones</legend>
+                                <p>
+                                    <input type="radio" name="competicion">1ª División <br>
+                                    <input type="radio" name="competicion">2ª División <br>
+                                    <input type="radio" name="competicion">1ª RFEF <br>
+                                    <input type="radio" name="competicion">2ª RFEF <br>
+                                </p>
+                            </fieldset>
+                            <p class="txt-cen"><input type="submit"></fieldset< /p>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="cb"></div>
+
+        </div>
+        <footer>
+            S1DAW - &copy; 2021 Azarquiel
+        </footer>
+    </div>
+</body>
+
+</html>
